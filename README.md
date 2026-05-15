@@ -8,6 +8,7 @@ A paramagnetic NMR simulation program
 ## Description
 **Note:** This README is currently being updated and will be completed within the next few days.
 For detailed information, please refer to the [User Manual](https://doi.org/10.26434/chemrxiv.15003368/v1).
+A DOI for this repository has not been generated yet.
 
 ## Installation
 For the latest installer, please see the [Releases](https://github.com/bruckhti/CUVNMR/releases/tag/v1.0.0) section (cuvnmr-installer-v1-0-0.zip archive).
