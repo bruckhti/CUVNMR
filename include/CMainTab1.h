@@ -14,14 +14,13 @@
 #pragma once
 #ifndef CMAINTAB1_H
 #define CMAINTAB1_H
+class CGraphControl;
 #include "DataBase.h"
 #include "CMainTab2.h"
 #include "CMainTab3.h"
 #include "GraphControl.h"
 #include "CDisplaySimDataDlg.h"
 #include <fstream>
-
-class CGraphControl;
 class CMainTab2;
 
 class CMainTab1 : public CDialogEx
@@ -110,4 +109,5 @@ protected:
 	afx_msg void OnBnClickedRemoveHFC();
 	DECLARE_MESSAGE_MAP()
 };
+
 #endif
