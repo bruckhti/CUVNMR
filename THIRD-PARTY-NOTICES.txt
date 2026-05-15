@@ -1,0 +1,15 @@
+THIRD PARTY LICENSES
+
+This software includes the following third-party components:
+
+1. GLM 1.0.1 (OpenGL Mathematics)
+- License: The Happy Bunny License (Modified MIT License) (see: licenses/GLM_LICENSE.txt)
+- Project: https://github.com/g-truc/glm
+
+2. GLEW 1.12.0 (OpenGL Extension Wrangler Library)
+- License: Modified BSD License, Mesa 3-D License (MIT), Khronos License (MIT)
+- Project: https://github.com/nigels-com/glew
+
+3. Freeglut 3.0.0
+- License: MIT/X11 syle license (see: licenses/FREEGLUT_LICENSE.txt)
+- Project: https://github.com/freeglut/freeglut
