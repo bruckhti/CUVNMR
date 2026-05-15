@@ -1,32 +1,23 @@
 cff-version: 1.2.0
-message: "If you utilize CUVNMR for your research, please cite the associated software manuscript (preferred citation). Please consider to also cite the exact software version employed or when the source code was modified."
+message: "If you use this software, please cite it as below."
 authors:
 - family-names: "Bruckhoff"
   given-names: "Tim"
   orcid: "https://orcid.org/0009-0001-2361-2400"
 title: "CUVNMR"
 version: 1.0.0
+doi: 10.5281/zenodo.xxxxx
 date-released: 2026-05-15
 url: "https://github.com/bruckhti/CUVNMR"
-
 preferred-citation:
   type: article
   status: preprint
   title: "CUVNMR – A paramagnetic NMR simulation program."
   authors:
-    - family-names: "Bruckhoff"
-      given-names: "Tim"
+  - family-names: "Bruckhoff"
+    given-names: "Tim"
+    orcid: "https://orcid.org/0009-0001-2361-2400"
   doi: "10.26434/chemrxiv.15003368/v1"
   journal: "ChemRxiv"
+  month: 5
   year: 2026
-
-references:
-  type: software
-  title: "CUVNMR"
-  authors:
-    - family-names: "Bruckhoff"
-      given-names: "Tim"
-  version: 1.0.0
-  doi: "10.5281/zenodo.xxxxx"
-  date-released: 2025-05-15
-  url: "https://github.com/bruckhti/CUVNMR"
