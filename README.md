@@ -14,7 +14,7 @@ For the latest installer, please see the [Releases](https://github.com/bruckhti/
 
 This project is written in C++ and can also be compiled using Microsoft Visual Studio (Version 2019 or higher recommended). Freeglut 3.0.0, GLEW 1.12.0 and GLM 1.0.1 were used during development and need to be downloaded separately.
 
-**The current version supports Windows (x64) only. (x86 support will follow in due course)**
+**The current version supports Windows (x64) only (x86 support will follow in due course).**
 
 ## Disclaimer
 **Research Use Only:** This software is provided "as is" for academic and research purposes only, without warranty of any kind, expressed or implied. The author is not liable for any errors in the simulation results or any damages arising from the use of this software. Users are advised to independently verify all calculated data and results, particularly when used for critical scientific conclusions.
