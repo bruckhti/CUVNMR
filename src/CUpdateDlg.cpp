@@ -45,7 +45,7 @@ BOOL CUpdateDlg::OnInitDialog()
 	m_cancel_button.EnableWindow(FALSE);
 	m_UpdateText.SetWindowTextW(_T("searching for updates, please wait ..."));
 	CString response_text;
-	std::wstring updateMSG = CheckForUpdatesOnly(VERSION, L"raw.githubusercontent.com", L"/bruckhti/CUVNMR/main/v1.0.0", L"CUVNMR-Agent", update_path, HASH);
+	std::wstring updateMSG = CheckForUpdatesOnly(VERSION, L"raw.githubusercontent.com", L"/bruckhti/CUVNMR/main", L"CUVNMR-Agent", update_path, HASH);
 	if (updateMSG == L"1")
 	{
 		response_text = _T("Updates are available. Do you want to download and istall the update now?");
