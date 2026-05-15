@@ -72,7 +72,7 @@ void CUpdateDlg::OnBnClickedOk()
 {
 	std::wstring updateMSG;
 	m_UpdateText.SetWindowTextW(_T("please wait..."));
-	updateMSG = DownloadAndVerify(VERSION, L"raw.githubusercontent.com", L"/bruckhti/CUVNMR/main/v1.0.0", L"github.com", update_path, HASH, L"CUVNMR-Agent");
+	updateMSG = DownloadAndVerify(VERSION, L"raw.githubusercontent.com", L"/bruckhti/CUVNMR/main/version", L"github.com", update_path, HASH, L"CUVNMR-Agent");
 	if (updateMSG != L"")
 	{
 		AfxMessageBox(updateMSG.c_str(), MB_ICONERROR);
